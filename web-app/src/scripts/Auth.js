@@ -84,7 +84,7 @@ class Auth {
     const { delay, username } = State.getState();
 
     const actionCodeSettings = {
-      url: 'https://auth.rsaauthdemo.com',
+      url: 'https://auth.rsaauthdemo.firebaseapp.com',
       handleCodeInApp: true,
       iOS: { bundleId: 'com.example.ios' },
       android: {
